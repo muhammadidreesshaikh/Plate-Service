@@ -8,14 +8,13 @@ setTimeout(function(){
 
 
 // nav-bar
-function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
-}
+function toggleMenu(x) {
+  // icon animation
+  x.classList.toggle("change");
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  // menu open and close
+  document.querySelector(".sidenav").classList.toggle("active");
 }
-
 
 // slider-carousel
 $('.slider-carousel').slick({

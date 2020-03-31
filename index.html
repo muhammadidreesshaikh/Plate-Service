@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="col-sm-3 col-md-3 col-lg-3">
-                        <div class="oder">
+                        <div class="oder" onclick="orderFormToggle()">
                             <a href="#"><i class="fas fa-pencil-alt"></i></a>
                         </div>
                     </div>
@@ -75,8 +75,43 @@
         </div>
     </header>
     <div class="seprator"></div>
-    
 
+    <section>
+        <div id="rightnav" class="form">
+            <div class="container">
+                
+                <div class="head">
+                    <h5>COMPLETE YOUR ORDER</h5>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 px-0">
+                    <select>
+                        <option value="0">Choose a Food Package</option>
+                        <option value="1">Detox</option>
+                        <option value="2">Balanced</option>
+                        <option value="2">Vegan</option>
+                    </select>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 px-0">
+                    <input type="name" placeholder="Email">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 px-0">
+                    <input type="name" placeholder="Phone">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-12 px-0 name">
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                </div>
+
+                <div class="button5">
+                    <a href="#">ORDER NOW</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
 
 
@@ -86,6 +121,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="slick/slick.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/loader.js"></script>

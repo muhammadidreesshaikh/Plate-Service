@@ -16,6 +16,12 @@ function toggleMenu(x) {
   document.querySelector(".sidenav").classList.toggle("active");
 }
 
+// right-nav
+function orderFormToggle() {
+  // menu open and close
+  document.getElementById("rightnav").classList.toggle("active");
+}
+
 // slider-carousel
 $('.slider-carousel').slick({
   dots: false,
